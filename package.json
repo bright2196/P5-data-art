@@ -1,5 +1,31 @@
 {
   "dependencies": {
+    "eslint": "^8.6.0",
     "p5": "^1.4.0"
-  }
+  },
+  "name": "data-art",
+  "version": "1.0.0",
+  "description": "Create data driven artwork with data visualization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bright2196/P5-data-art.git"
+  },
+  "keywords": [
+    "data",
+    "art",
+    "visualization",
+    "esd",
+    "p5",
+    "javascript"
+  ],
+  "author": "Claire Rieusset",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bright2196/P5-data-art/issues"
+  },
+  "homepage": "https://github.com/bright2196/P5-data-art#readme"
 }
