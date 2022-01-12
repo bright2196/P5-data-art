@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d9c5b1;
+}
+
+.patatap {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 50px 50px 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.patatap__instructions {
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.patatap__footer {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  align-self: flex-end;
+  text-align: right;
+  background-color: white;
+  padding: 10px 40px;
+  border-radius: 50px
+}
+
+.patatap__logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 25px
+}
+
+.patatap__loader {
+  background-color: #d9c5b1;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.patatap__canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+}
+
+
+
+.patatap__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.patatap__colors {
+  position: relative;
+}
+
+.patatap__color-button {
+  padding: 10px 14px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  font-size: 20px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.patatap__container-images {
+  position: absolute;
+  width: 115px;
+  height: auto;
+  top: -20px;
+  left: 0;
+  background-color: #ffffff;
+  padding: 20px;
+  transform: translateY(-100%);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.patatap__image {
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  object-fit: cover;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
