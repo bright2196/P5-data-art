@@ -1,10 +1,27 @@
+
+
 * {
   margin: 0;
   padding: 0;
+  background-color: antiquewhite;
 }
 
 .p5Canvas {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.title {
+  font-size: 20px;
+  text-align: left;
+  display: flex;  
+  justify-content: flex-start;
+  align-items: center;
+  font-family: orpheuspro,serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-left: 5%;
+  height: 100vh;
+
 }

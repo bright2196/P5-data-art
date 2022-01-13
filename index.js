@@ -1,23 +1,24 @@
-let a = 1.4,
-  b = 1.1,
-  c = 2.8,
-  d = 1.5;
+let a = 2.6,
+  b = 3.2,
+  c = 3.7,
+  d = 4.1;
 let x = 1,
   y = 1;
 
+
+
+
 function setup() {
-  loadJSON("data/evolution-activite.json", gotData, "jsonp");
   let canva = createCanvas(500, 500);
   stroke(190, 50, 120, 10);
-  canva.position(550, 180);
+  canva.position(500, 130);
+ 
+  
 };
 
-function gotData(data) {
-  printIn(data);
-};
 
 function draw() {
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < 500; i++) {
     let oldX = x;
     let oldY = y;
     x = sin(a * oldY) - cos(b * oldX);
@@ -26,4 +27,6 @@ function draw() {
     let scaledY = map(y, -2, 2, 0, height);
     point(scaledX, scaledY);
   }
+
 };
+
