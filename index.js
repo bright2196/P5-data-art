@@ -6,8 +6,6 @@ let x = 1,
   y = 1;
 
 
-
-
 function setup() {
   let canva = createCanvas(500, 500);
   stroke(190, 50, 120, 10);
@@ -18,7 +16,7 @@ function setup() {
 
 
 function draw() {
-  for (let i = 0; i < 500; i++) {
+  for (let i = 0; i < 2000; i++) {
     let oldX = x;
     let oldY = y;
     x = sin(a * oldY) - cos(b * oldX);

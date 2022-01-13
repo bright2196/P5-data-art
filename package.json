@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/bright2196/P5-data-art#readme",
   "devDependencies": {
-    "tailwindcss": "^3.0.13"
+    "tailwindcss": "^1.9.6"
   }
 }
